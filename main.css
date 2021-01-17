@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -64,6 +65,7 @@ body {
 }
 
 .sub-header-nav {
+  border: 3px solid rgb(128, 0, 64);
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -74,9 +76,15 @@ body {
   font-size: 0.85rem;
 }
 
-/* .sub-header-nav-item {
-  margin: 1.6em;
-} */
+.sub-header-nav-item {
+  border-right: 2px solid black;
+  /* width: 16%; */
+  margin: 0.25rem;
+}
+
+.sub-header-nav-item:last-child {
+  border-right: 0;
+}
 
 .main-content {
   grid-area: main-content;
