@@ -113,3 +113,11 @@ body {
   /* border: 3px solid purple; */
   grid-area: sidebar;
 }
+
+.section-title {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 0.875rem;
+  letter-spacing: 0.03rem;
+  text-transform: uppercase;
+}
