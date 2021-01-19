@@ -76,6 +76,13 @@ body {
   font-size: 0.85rem;
 }
 
+.sub-header-nav-icon {
+  width: 2rem;
+  float: left;
+  padding-right: 0.5rem;
+  vertical-align: center;
+}
+
 .sub-header-nav-item {
   border-right: 2px solid black;
   /* width: 16%; */
