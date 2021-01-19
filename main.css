@@ -33,6 +33,10 @@ body {
   margin: 0 1rem;
 }
 
+.site-logo {
+  vertical-align: middle;
+}
+
 .nav {
   /* border: 3px pink dashed; */
   display: flex;
