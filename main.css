@@ -90,13 +90,13 @@ body {
   border-right: 1px solid black;
   display: flex;
   align-items: center;
-  width: 17%;
+  width: 14.5rem;
   margin-right: 1rem;
   padding-right: 1.5rem;
 }
 
 .sub-header-nav-item:nth-of-type(3) {
-  width: 19%;
+  width: 16rem;
 }
 
 .sub-header-nav-item:last-child {
